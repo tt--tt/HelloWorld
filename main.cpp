@@ -1,5 +1,8 @@
 #include <iostream>
+#include <string>
+
+const std::string HELLO_WORLD_MESSAGE = "Hello, world!";
 
 int main() {
-    std::cout << "Hello, world!" << std::endl;
+    std::cout << HELLO_WORLD_MESSAGE << std::endl;
 }
